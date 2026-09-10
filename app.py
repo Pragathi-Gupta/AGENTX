@@ -89,10 +89,7 @@ def read_google_sheet(sheet_url: str) -> str:
 # -----------------------------
 st.sidebar.title("⚙️ AGENTX")
 
-api_key = st.sidebar.text_input(
-    "Gemini API Key",
-    type="password"
-)
+api_key = st.secrets.get("GEMINI_API_KEY", "")
 
 uploaded_file = st.sidebar.file_uploader(
     "Upload CSV or Excel file",
