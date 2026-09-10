@@ -2,4 +2,6 @@ streamlit
 pandas
 openpyxl
 requests
-google-genai
+google-genai>=2.3.0
+pypdf
+python-docx
