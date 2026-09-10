@@ -247,7 +247,7 @@ Answer the user using the tool result.
 """
 
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-3.6-flash",
                     contents=prompt
                 )
 
@@ -278,7 +278,7 @@ Answer the user using the tool result.
 """
 
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-3.6-flash",
                     contents=prompt
                 )
 
@@ -310,7 +310,7 @@ User's latest request:
 """
 
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash",
+                    model="gemini-3.6-flash",
                     contents=prompt
                 )
 
