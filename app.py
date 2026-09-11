@@ -15,7 +15,7 @@ except Exception:
     Document = None
 
 st.set_page_config(page_title="AGENTX", page_icon="🤖", layout="wide")
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.5-flash-lite"
 
 # ---------- Tools ----------
 def web_search(query: str) -> dict:
